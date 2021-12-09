@@ -1,0 +1,1 @@
+Calculator=||=sys.calc.png=||=window.location.href='calc.php';
