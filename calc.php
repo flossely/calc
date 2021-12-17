@@ -112,9 +112,9 @@ function calculate() {
 <input style="width:70%;" type="text" id="calc" placeholder="Enter the math expression" value="" onkeydown="if (event.keyCode == 13) {
     calculate();
 }">
-<input id='calcButton' class='actionButton' title="Calculate" type="button" value="=" onclick="calculate(); calc.focus();">
-<input id='clearButton' class='actionButton' title="Clear" type="button" value="O" onclick="calc.value = ''; inputPanel.value = ''; outputPanel.value = ''; calc.focus();">
-<input id='exitButton' class='actionButton' title="Exit" type="button" value="X" onclick="window.location.href = 'index.php';">
+<input id='calcButton' class='actionButton' type="button" value=">" onclick="calculate(); calc.focus();">
+<input id='clearButton' class='actionButton' type="button" value="<" onclick="calc.value = ''; inputPanel.value = ''; outputPanel.value = ''; calc.focus();">
+<input id='exitButton' class='actionButton' type="button" value="X" onclick="window.location.href = 'index.php';">
 </p>
 </div>
 <div class='panel'>
