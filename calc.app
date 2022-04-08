@@ -1,1 +1,1 @@
-Calculator=||=sys.calc.png=||=window.location.href='calc.php';
+Calculator|[1]|sys.calc.png|[1]|window.location.href='calc.php';
