@@ -5,12 +5,8 @@
 <title>Calculator</title>
 <link rel="shortcut icon" href="sys.calc.png?rev=<?=time();?>" type="image/x-icon">
 <link href="system.css?rev=<?=time();?>" rel="stylesheet">
-<script src="jquery.js?rev=<?=time();?>"></script>
-<script src="base.js?rev=<?=time();?>"></script>
-<script src="nerdamer.js?rev=<?=time();?>"></script>
-<script src="algebra.js?rev=<?=time();?>"></script>
-<script src="calculus.js?rev=<?=time();?>"></script>
-<script src="solve.js?rev=<?=time();?>"></script>
+<?php include 'base.incl.php'; ?>
+<?php include 'math.incl.php'; ?>
 <script>
 window.onload = function() {
     document.getElementById('calc').focus();
